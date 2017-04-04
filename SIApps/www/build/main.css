@@ -24701,3 +24701,7 @@ page-side-menu .button-inner {
   -ms-flex-pack: start;
   justify-content: flex-start;
 }
+
+page-tabs-menu .segment-button {
+  word-wrap: break-word;
+}

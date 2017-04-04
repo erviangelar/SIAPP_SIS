@@ -47,7 +47,7 @@ import { POBPCRTPProductivityEvaluationPage } from '../pages/pobpcrtp-productivi
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
     SideMenuPage,
     ManageAccountPage,
     TabsMenuPage,
@@ -83,14 +83,14 @@ import { POBPCRTPProductivityEvaluationPage } from '../pages/pobpcrtp-productivi
     POBPCRTPProductivityEvaluationPage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
     SuperTabsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
     SideMenuPage,
     ManageAccountPage,
     TabsMenuPage,
