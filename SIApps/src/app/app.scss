@@ -30,3 +30,43 @@
 .show-back-button {
 	color: white;
 }
+
+.ion-md-exca::before {
+  //@extend .set-icons-general;
+  content: url(../img/Exca.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.ion-md-dumptruck::before {
+  //@extend .set-icons-general;
+  content: url(../img/dumptruck.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.ion-md-dumptruck2::before {
+  //@extend .set-icons-general;
+  content: url(../img/dumptruck2.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.ion-md-longtruck::before {
+  //@extend .set-icons-general;
+  content: url(../img/longtruck.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}

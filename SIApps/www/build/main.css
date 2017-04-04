@@ -24567,6 +24567,42 @@ super-tabs ion-slides ion-slide, super-tabs ion-slides ion-slide .slide-zoom, su
   color: white;
 }
 
+.ion-md-exca::before {
+  content: url(../img/Exca.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.ion-md-dumptruck::before {
+  content: url(../img/dumptruck.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.ion-md-dumptruck2::before {
+  content: url(../img/dumptruck2.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.ion-md-longtruck::before {
+  content: url(../img/longtruck.png);
+  /*width: 6px;
+  height: 4px;*/
+  /*padding: 6px 4px 2px;*/
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
 page-login {
   /*
     ion-item {
