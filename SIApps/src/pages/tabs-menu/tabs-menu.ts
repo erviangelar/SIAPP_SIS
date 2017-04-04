@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 import { ProAchieveByProcessTabsPage } from '../pro-achieve-by-process-obr/pro-achieve-by-process-obr';
-import { LagIndicatorPage } from '../lag-indicator/lag-indicator';
+import { LagIndicatorTabsPage } from '../lag-indicator/lag-indicator';
 import { LeadIndicatorPage } from '../lead-indicator/lead-indicator';
 
 @Component({
@@ -12,7 +12,7 @@ import { LeadIndicatorPage } from '../lead-indicator/lead-indicator';
 export class TabsMenuPage {
 
   page1: any = ProAchieveByProcessTabsPage;
-  page2: any = LagIndicatorPage;
+  page2: any = LagIndicatorTabsPage;
   page3: any = LeadIndicatorPage;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
