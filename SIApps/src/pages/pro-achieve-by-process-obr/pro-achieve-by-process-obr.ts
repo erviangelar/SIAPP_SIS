@@ -12,6 +12,7 @@ import { PABPOBRGapBridgeLPAPage } from '../pabpobr-gap-bridge-lpa/pabpobr-gap-b
 import { PABPOBRNumOfFleetEvaluationPage } from '../pabpobr-num-of-fleet-evaluation/pabpobr-num-of-fleet-evaluation';
 import { PABPOBREwhLoaderEvaluationPage } from '../pabpobr-ewh-loader-evaluation/pabpobr-ewh-loader-evaluation';
 import { PABPOBRProductivityEvaluationPage } from '../pabpobr-productivity-evaluation/pabpobr-productivity-evaluation';
+import { TabsMenuPabpObrPage } from '../tabs-menu-pabp-obr/tabs-menu-pabp-obr';
 
 
 @Component({
@@ -24,7 +25,7 @@ export class ProAchieveByProcessOBRPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public app: App) {
     this.items = [
-      { title: 'Production Achievement By Pit', component: PABPOBRProAchievementByPitPage },
+      { title: 'Production Achievement By Pit', component: TabsMenuPabpObrPage },
       { title: 'Summary Of Fleet Achievement', component: PABPOBRSumOfFleetAchievementPage },
       { title: 'Gap Bridge LPA', component: PABPOBRGapBridgeLPAPage },
       { title: 'Number Of Fleet Evaluation', component: PABPOBRNumOfFleetEvaluationPage },

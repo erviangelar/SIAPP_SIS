@@ -11,6 +11,7 @@ import { LoginPage } from '../pages/login/login';
 import { SideMenuPage } from '../pages/side-menu/side-menu';
 import { ManageAccountPage } from '../pages/manage-account/manage-account';
 import { TabsMenuPage } from '../pages/tabs-menu/tabs-menu';
+import { TabsMenuPabpObrPage } from '../pages/tabs-menu-pabp-obr/tabs-menu-pabp-obr';
 import { ProAchieveByProcessTabsPage } from '../pages/pro-achieve-by-process-obr/pro-achieve-by-process-obr';
 import { LagLoadingPage } from '../pages/lag-loading/lag-loading';
 import { LagIndicatorPage } from '../pages/lag-indicator/lag-indicator';
@@ -41,6 +42,9 @@ import { POBPCRTPProAchieveByPitPage } from '../pages/pobpcrtp-pro-achieve-by-pi
 import { POBPCRTPGapBridgeLPAPage } from '../pages/pobpcrtp-gap-bridge-lpa/pobpcrtp-gap-bridge-lpa';
 import { POBPCRTPEwhTrailerByPitPage } from '../pages/pobpcrtp-ewh-trailer-by-pit/pobpcrtp-ewh-trailer-by-pit';
 import { POBPCRTPProductivityEvaluationPage } from '../pages/pobpcrtp-productivity-evaluation/pobpcrtp-productivity-evaluation';
+import { PabpobrPabpObSlidePage } from '../pages/pabpobr-pabp-ob-slide/pabpobr-pabp-ob-slide';
+import { PabpobrPabpPtrSlidePage } from '../pages/pabpobr-pabp-ptr-slide/pabpobr-pabp-ptr-slide';
+import { PabpobrPabpRtpSlidePage } from '../pages/pabpobr-pabp-rtp-slide/pabpobr-pabp-rtp-slide';
 
 
 @NgModule({
@@ -51,6 +55,7 @@ import { POBPCRTPProductivityEvaluationPage } from '../pages/pobpcrtp-productivi
     SideMenuPage,
     ManageAccountPage,
     TabsMenuPage,
+    TabsMenuPabpObrPage,
     ProAchieveByProcessTabsPage,
     LagLoadingPage,
     LagIndicatorPage,
@@ -80,7 +85,10 @@ import { POBPCRTPProductivityEvaluationPage } from '../pages/pobpcrtp-productivi
     POBPCRTPProAchieveByPitPage,
     POBPCRTPGapBridgeLPAPage,
     POBPCRTPEwhTrailerByPitPage,
-    POBPCRTPProductivityEvaluationPage
+    POBPCRTPProductivityEvaluationPage,
+    PabpobrPabpObSlidePage,
+    PabpobrPabpPtrSlidePage,
+    PabpobrPabpRtpSlidePage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -94,6 +102,7 @@ import { POBPCRTPProductivityEvaluationPage } from '../pages/pobpcrtp-productivi
     SideMenuPage,
     ManageAccountPage,
     TabsMenuPage,
+    TabsMenuPabpObrPage,
     ProAchieveByProcessTabsPage,
     LagLoadingPage,
     LagIndicatorPage,
@@ -123,7 +132,10 @@ import { POBPCRTPProductivityEvaluationPage } from '../pages/pobpcrtp-productivi
     POBPCRTPProAchieveByPitPage,
     POBPCRTPGapBridgeLPAPage,
     POBPCRTPEwhTrailerByPitPage,
-    POBPCRTPProductivityEvaluationPage
+    POBPCRTPProductivityEvaluationPage,
+    PabpobrPabpObSlidePage,
+    PabpobrPabpPtrSlidePage,
+    PabpobrPabpRtpSlidePage
   ],
   providers: [
     StatusBar,

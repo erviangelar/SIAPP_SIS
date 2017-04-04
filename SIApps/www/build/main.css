@@ -24712,6 +24712,144 @@ page-manage-account .button-inner {
   color: white;
 }
 
+page-pabpobr-pabp-ob-slide .button-inner {
+  color: white;
+}
+
+page-pabpobr-pabp-ob-slide .table-wrapper {
+  overflow-x: scroll;
+  overflow-y: visible;
+  width: 75%;
+  margin-left: 120px;
+}
+
+page-pabpobr-pabp-ob-slide th {
+  padding: 5px 20px;
+  width: 120px;
+}
+
+page-pabpobr-pabp-ob-slide td, page-pabpobr-pabp-ob-slide tr {
+  padding: 5px 20px;
+  width: 140px;
+}
+
+page-pabpobr-pabp-ob-slide .posisiton-default {
+  height: 4.8em !important;
+  position: absolute !important;
+  padding-top: 20px !important;
+  vertical-align: middle !important;
+}
+
+page-pabpobr-pabp-ob-slide th:first-child {
+  position: fixed;
+  left: 5px;
+  text-align: left;
+}
+
+page-pabpobr-pabp-ob-slide th:nth-child(2) {
+  position: fixed;
+  left: 5px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+page-pabpobr-pabp-ob-slide .setup {
+  height: 70%;
+}
+
+page-pabpobr-pabp-ob-slide .table-font-1 {
+  font-size: 1.0rem !important;
+}
+
+page-pabpobr-pabp-ob-slide .header-border-b {
+  border-bottom: solid 1px grey;
+}
+
+page-pabpobr-pabp-ob-slide .border-b {
+  border-bottom: solid 1px grey;
+}
+
+page-pabpobr-pabp-ob-slide .border-t {
+  border-top: solid 1px grey;
+}
+
+page-pabpobr-pabp-ob-slide .content-table-1 {
+  margin-bottom: 30px;
+}
+
+page-pabpobr-pabp-ob-slide .table-setup-div {
+  margin-top: -20px;
+}
+
+page-pabpobr-pro-achievement-by-pit .button-inner {
+  color: white;
+}
+
+page-pabpobr-pro-achievement-by-pit .table-wrapper {
+  overflow-x: scroll;
+  overflow-y: visible;
+  width: 75%;
+  margin-left: 120px;
+}
+
+page-pabpobr-pro-achievement-by-pit th {
+  padding: 5px 20px;
+  width: 120px;
+}
+
+page-pabpobr-pro-achievement-by-pit td, page-pabpobr-pro-achievement-by-pit tr {
+  padding: 5px 20px;
+  width: 140px;
+}
+
+page-pabpobr-pro-achievement-by-pit .posisiton-default {
+  height: 4.8em !important;
+  position: absolute !important;
+  padding-top: 20px !important;
+  vertical-align: middle !important;
+}
+
+page-pabpobr-pro-achievement-by-pit th:first-child {
+  position: fixed;
+  left: 5px;
+  text-align: left;
+}
+
+page-pabpobr-pro-achievement-by-pit th:nth-child(2) {
+  position: fixed;
+  left: 5px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+page-pabpobr-pro-achievement-by-pit .setup {
+  height: 70%;
+}
+
+page-pabpobr-pro-achievement-by-pit .table-font-1 {
+  font-size: 1.0rem !important;
+}
+
+page-pabpobr-pro-achievement-by-pit .header-border-b {
+  border-bottom: solid 1px grey;
+}
+
+page-pabpobr-pro-achievement-by-pit .border-b {
+  border-bottom: solid 1px grey;
+}
+
+page-pabpobr-pro-achievement-by-pit .border-t {
+  border-top: solid 1px grey;
+}
+
+page-pabpobr-pro-achievement-by-pit .content-table-1 {
+  margin-bottom: 30px;
+}
+
+page-pabpobr-pro-achievement-by-pit .table-setup-div {
+  margin-top: -20px;
+}
+
 page-pro-achieve-by-process-cptr .icons {
   position: absolute;
   right: 10px;
