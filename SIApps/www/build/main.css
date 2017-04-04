@@ -24517,40 +24517,6 @@ ion-navbar.toolbar {
   }
 }
 
-super-tabs {
-  display: block;
-}
-
-super-tabs ion-segment.segment.segment-md ion-segment-button {
-  border-bottom: 0;
-  height: inherit;
-}
-
-super-tabs ion-segment.segment.segment-md ion-segment-button ion-icon {
-  display: block;
-}
-
-super-tabs ion-segment.segment.segment-md + .slide {
-  bottom: 0;
-  position: absolute;
-  z-index: 2;
-  height: 2px;
-}
-
-super-tabs ion-segment.segment.segment-md + .slide.ease {
-  transition: left .25s ease-in;
-}
-
-super-tabs ion-slides {
-  text-align: inherit;
-  font-size: inherit;
-}
-
-super-tabs ion-slides ion-slide, super-tabs ion-slides ion-slide .slide-zoom, super-tabs ion-slides .swiper-slide {
-  text-align: inherit;
-  font-size: inherit;
-}
-
 .toolbar-background {
   background-color: #0B29FF;
 }
