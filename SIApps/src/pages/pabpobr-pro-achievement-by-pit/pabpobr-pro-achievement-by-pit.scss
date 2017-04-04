@@ -1,3 +1,72 @@
 page-pabpobr-pro-achievement-by-pit {
+	.button-inner {
+		color: white;
+	    
+	}
 
+	.table-wrapper { 
+	    overflow-x:scroll;
+	    overflow-y:visible;
+	    width:75%;
+    	margin-left: 120px;
+	}
+
+
+	th {
+	    padding: 5px 20px;
+	    width: 120px;
+	}
+	td, tr {
+	    padding: 5px 20px;
+	    width: 140px;
+	}
+
+	.posisiton-default{
+		height: 4.8em !important;
+		position: absolute !important;
+		padding-top: 20px !important;
+		vertical-align: middle !important;
+	}
+
+	th:first-child {
+	    position: fixed;
+	    left: 5px;
+	    text-align: left;
+	}
+
+	th:nth-child(2) {
+	    position: fixed;
+	    left: 5px;
+	    text-align: left;
+    	margin-left: 30px;
+	}
+
+	.setup {
+		height: 70%;
+		//position: fixed;
+	}
+
+	.table-font-1{
+		font-size: 1.0rem !important;
+	}
+
+	.header-border-b{
+		border-bottom: solid 1px grey;
+	}
+
+	.border-b{
+		border-bottom: solid 1px grey;
+	}
+
+	.border-t{
+		border-top: solid 1px grey;
+	}
+
+	.content-table-1{
+		margin-bottom: 30px;
+	}
+
+	.table-setup-div{
+		margin-top: -20px;
+	}
 }
