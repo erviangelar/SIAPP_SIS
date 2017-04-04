@@ -48,10 +48,10 @@ export class ProAchieveByProcessOBRPage {
 @Component({
  template: `
  <ion-tabs tabsPlacement="bottom">
-    <ion-tab [root]="tab1" tabTitle="OB Removal"></ion-tab>
-    <ion-tab [root]="tab2" tabTitle="OBR By Site"></ion-tab>
-    <ion-tab [root]="tab3" tabTitle="Coal PTR"></ion-tab>
-    <ion-tab [root]="tab4" tabTitle="Coal RTP"></ion-tab>
+    <ion-tab [root]="tab1" tabTitle="OB Removal" tabIcon="exca"></ion-tab>
+    <ion-tab [root]="tab2" tabTitle="OBR By Site" tabIcon="dumptruck"></ion-tab>
+    <ion-tab [root]="tab3" tabTitle="Coal PTR" tabIcon="dumptruck2"></ion-tab>
+    <ion-tab [root]="tab4" tabTitle="Coal RTP" tabIcon="longtruck"></ion-tab>
  </ion-tabs>
   `
 })
