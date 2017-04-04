@@ -1,6 +1,6 @@
-page-pabpobr-pro-achievement-by-pit {
+page-pabpobr-pabp-ob-slide {
 	.button-inner {
-		color: white;
+			color: white;
 	    
 	}
 
@@ -13,7 +13,7 @@ page-pabpobr-pro-achievement-by-pit {
 
 
 	th {
-	    padding: 5px 20px;
+	    // padding: 5px 20px;
 	    width: 120px;
 	}
 	td, tr {
@@ -68,5 +68,17 @@ page-pabpobr-pro-achievement-by-pit {
 
 	.table-setup-div{
 		margin-top: -20px;
+	}
+
+	.header-grid-side{
+		float: left;
+		width: 25%;
+	}
+
+	.content-grid{
+		float: left;
+	    overflow-x:scroll;
+	    overflow-y:visible;
+		width: 70%;
 	}
 }
